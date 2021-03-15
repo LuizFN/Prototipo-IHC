@@ -1,0 +1,94 @@
+/*Estiliza o container para centralizar os itens*/
+.container{
+	display: flex; /*para que as colunas fiquem ao lado da outra*/
+	justify-content: center; /*centraliza os conteudos*/
+}
+/*ESTILIZA TODA A LINHA QUE CONTEM OS CONTEUDOS*/
+.row{
+	justify-content: center; /*centraliza*/
+	width: 90%; /*largura*/
+	height: 50%; /*altura*/
+	border-radius: ;
+}
+/*ESTILIZA O MENU*/
+#menu ul{
+	
+}
+/* ---------- ESTILIZA AS DUAS COLUNAS DA DESCRIÇÃO E LOGIN ----------*/
+
+
+.second-column input{
+	align-items: center;
+
+}
+/* ---------- ESTILIZA OS TITULOS E PARAGRAFOS ----------*/
+.title-primary{
+	color: #ffffff; /*cor da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	font-size: 20pt; /*tamanho da fonte*/
+	text-align: center;
+}
+
+.description-primary{
+	color: #ffffff; /*cor do texto*/
+}
+
+.title-second{
+	color: #5F9EA0; /*cor do texto azul*/
+	font-size: 20pt; /*tamanho da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	text-align: center;
+}
+
+.title-cadas{
+	color: #5F9EA0; /*cor do texto azul*/
+	font-size: 20pt; /*tamanho da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	text-align: left;	
+}
+
+#esSenha{ /*estiliza o link*/
+	color: #008B8B; /*muda a cor do texto*/
+}
+
+#recupera{
+	font-size: 14px;
+}
+
+#menu{
+	background-color: #191970;
+}
+
+#rodape{
+	background-color: #191970;
+}
+
+#carCdas{
+	background-color: #E6E6FA; /*cor de fundo*/
+	border-top-right-radius: 15px; /*arredonda o topo e a direita das bordas*/
+	border-bottom-right-radius: 15px; /*arredonda embaixo e a direita das bordas*/
+		/*para criar sombra nas bordas*/
+	box-shadow: 5px 5px 10px #0076a3;
+	-webkit-box-shadow: 5px 5px 10px #0076a3;
+	-moz-box-shadow: 5px 5px 10px #0076a3;
+	/*para criar sombra nas bordas*/
+}
+
+#card2{
+	border-top-left-radius: 15px; /*arredonda o topo e esquerda das bordas*/
+	border-bottom-left-radius: 15px; /*arredonda embaixo e esquerda das bordas*/
+		/*para criar sombra nas bordas*/
+	box-shadow: 5px 5px 10px #0076a3;
+	-webkit-box-shadow: 2px 5px 10px #0076a3;
+	-moz-box-shadow: 5px 5px 10px #0076a3;
+	/*para criar sombra nas bordas*/
+}
+
+.btEntrar{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tabela{
+	height: 40px;
+}
